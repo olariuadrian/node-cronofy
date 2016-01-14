@@ -12,19 +12,17 @@ module.exports = function(params) {
             headers: {
                 'Content-type': 'application/json; charset=utf-8',
                 'Authorization': 'Bearer ' + params['access_token']
-            }
+            },
+            json: true
         };
-        console.log(options);
-        
+
         request(options, function (error, response, body) {
             if ( error || (response.statusCode != 200 && response.statusCode != 202) ) {
                 console.log(error, response.statusCode);
                 return reject(error);
             }
             
-            var jsonBody = JSON.parse(body);
-            
-            return resolve(jsonBody.calendars);
+            return resolve(body.calendars);
         });        
     });
 };

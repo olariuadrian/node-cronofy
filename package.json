@@ -13,6 +13,7 @@
   },
 
   "dependencies": {
+    "underscore": "*",
     "bluebird": "3.1.x",
     "async": "1.5.x",
     "request": "*",

@@ -6,7 +6,7 @@ module.exports = {
     
     // createEvent: require('./methods/event_create.js'),
     // deleteEvent: require('./methods/event_delete.js'),
-    // readEvents: require('./methods/event_read.js'),
+    readEvents: require('./methods/event_read.js'),
     
     createNotificationChannel: require('./methods/notification_channel_create.js'),
     // deleteNotificationChannel: require('./methods/notification_channel_delete.js'),
