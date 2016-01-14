@@ -8,7 +8,8 @@
     "email": "olariuadrian@gmail.com"
   },
   "repository": {
-    "type": "git"
+    "type": "git",
+    "url": "git+https://github.com/olariuadrian/node-cronofy.git"
   },
 
   "dependencies": {
