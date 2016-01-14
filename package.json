@@ -1,0 +1,22 @@
+{
+  "name": "node-cronofy",
+  "version": "0.0.1",
+  "description": "NodeJs Cronofy",
+  "keywords": ["Node.js", "cronofy", "calendars"],
+  "author": {
+    "name": "Adrian Olariu",
+    "email": "olariuadrian@gmail.com"
+  },
+  "repository": {
+    "type": "git"
+  },
+
+  "dependencies": {
+    "bluebird": "3.1.x",
+    "async": "1.5.x",
+    "request": "*",
+    "debug": "2.2.x"
+  },
+
+  "main": "index.js"
+}
