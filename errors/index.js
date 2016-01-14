@@ -7,7 +7,6 @@ function CronofyError(code, message) {
 	this.code = code;
 
 	this.name = 'CronofyError';
-	this.isAlixApiError = true;
 }
 
 CronofyError.prototype.__proto__ = Error.prototype;

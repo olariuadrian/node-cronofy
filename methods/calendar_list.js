@@ -24,8 +24,6 @@ module.exports = function(params) {
             
             var jsonBody = JSON.parse(body);
             
-            console.log(jsonBody.calendars);
-            
             return resolve(jsonBody.calendars);
         });        
     });
