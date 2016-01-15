@@ -26,7 +26,7 @@ module.exports = function(params) {
                 return reject(error);
             }
             
-            return resolve(body);
-        });        
+            return resolve(body.events);
+        });
     });
 };
