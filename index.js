@@ -1,6 +1,6 @@
 module.exports = {
     requestAccessToken: require('./methods/access_token_request.js'),
-    // refreshAccessToken: require('./methods/access_token_refresh.js'),
+    refreshAccessToken: require('./methods/access_token_refresh.js'),
     
     // revokeAuthorization: require('./methods/authorization_revoke.js'),
     
